@@ -1,0 +1,28 @@
+.filter-containers {
+    font-family: Arial, sans-serif;
+    border-radius: 0px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: bold;
+    color: #555;
+}
+
+p {
+    margin: 5px 0;
+    line-height: 1.6;
+    color: #666;
+}

@@ -1,0 +1,24 @@
+@keyframes slide {
+    50% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+}
+
+.contain{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.button {
+    animation: slide 5s infinite; 
+    margin: 10px;
+}
